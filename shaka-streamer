@@ -70,7 +70,7 @@ See docs: https://shaka-project.github.io/shaka-streamer/cloud_storage.html
   parser.add_argument('-c', '--cloud-url',
                       default=None,
                       help='The Google Cloud Storage or Amazon S3 URL to ' +
-                           'upload to.  (Starts with gs:// or s3://) (DEPRECATED, use -o)')
+                           'upload to.  (Starts with gs:// or s3:// or blob://) (DEPRECATED, use -o)')
   parser.add_argument('-o', '--output',
                       default='output_files',
                       help='The output folder or URL to write files to.  See ' +
